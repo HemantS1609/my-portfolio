@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hemant Sonar</title>
+    <link rel="icon" href="./assets/favicon.ico" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+
+  <body>
+    <nav id="desktop-nav">
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <!-- <li><a href="#projects">Projects</a></li> -->
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <!-- <li><a href="#projects" onclick="toggleMenu()">Projects</a></li> -->
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img
+          src="./assets/profile-two.png"
+          alt="Hemant Sonar profile picture"
+        />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Hemant Sonar</h1>
+        <p class="section__text__p2 typing-effect">
+          <span id="typing-text"></span>
+        </p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="location.href='https://drive.google.com/file/d/1Na7zzbFlkeAKn3bWIdt8m22y2Ii3hbqP/view?usp=sharing'"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href=`https://www.linkedin.com/in/hemant-s-64693734a/`"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/HemantS1609'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <!-- <div class="section__pic-container">
+            <img src="./assets/about-pic.jpg" alt="Profile picture" class="about-pic" />
+         </div> -->
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>2.6+ years <br />Frontend Developer</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>B.E. in Computer Engineering</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Results-driven Frontend Developer with over 2.6+ years of
+              experience in building scalable and high-performance web
+              applications. Proficient in React, Redux Toolkit, JavaScript, and
+              secure payment integration, with hands-on expertise in
+              implementing role-based access control (RBAC) and optimizing
+              UI/UX. Skilled in troubleshooting complex issues, enhancing
+              frontend performance, and writing clean, maintainable code. Known
+              for delivering seamless user experiences and collaborating
+              effectively with backend teams.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#skills'"
+      />
+    </section>
+    <section id="skills">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Skills & Technologies</h1>
+      <div class="skills-containers">
+        <div class="section">
+          <h2>Languages</h2>
+          <p>JavaScript (ES6+)</p>
+        </div>
+
+        <div class="section">
+          <h2>Frameworks & Libraries</h2>
+          <p>React.js, Redux Toolkit Bootstrap, Axios</p>
+        </div>
+        <div class="section">
+          <h2>Web Technologies</h2>
+          <p>
+            HTML, CSS, REST APIs, API Integration, Payment Gateway Integration
+          </p>
+        </div>
+
+        <div class="section">
+          <h2>Tools & Platforms</h2>
+          <p>Git, Jira, Visual Studio Code, Postman, Slack</p>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <div class="experienceHeader">
+              <h2 class="experience-sub-title">
+                <a href="https://www.gaftechrevolutionindia.com/"
+                  >Gaftech Revolution India Pvt Ltd</a
+                >
+              </h2>
+              <p class="experience-period">Aug 2022 - Feb 2025</p>
+            </div>
+            <h4 class="jobPosition">Position: Software Engineer</h4>
+            <div class="experience-container">
+              <ul>
+                <li style="list-style: none">
+                  <strong>Key Contributions:</strong>
+                </li>
+                <li>
+                  Over 2.6+ years of hands-on experience as a React Developer,
+                  specializing in building scalable, responsive web applications
+                </li>
+                <li>
+                  Proficient in React.js, Redux Toolkit, JavaScript, HTML, CSS,
+                  Sass, and Bootstrap, used to develop over 4 dynamic
+                  interfaces, improving user satisfaction by 20% based on client
+                  feedback and usability testing.
+                </li>
+                <li>
+                  Developed 2 custom admin panels with role-based access control
+                  (RBAC), reducing unauthorized access incidents by 35% and
+                  streamlining data operations by 30% through optimized state
+                  management.
+                </li>
+                <li>
+                  Improved API performance by 30% and security through close
+                  backend collaboration and implementation of encryption
+                  protocols.
+                </li>
+                <li>
+                  Enhanced UI/UX design for cross-device compatibility, leading
+                  to a 25% increase in user engagement and 20% reduction in page
+                  load times.
+                </li>
+                <li>
+                  Built management systems for sectors like education, beauty
+                  services, and pet healthcare with automated workflows,
+                  intuitive dashboards and improving operational efficiency by
+                  35%.
+                </li>
+                <li>
+                  Resolved performance bottlenecks and optimized rendering
+                  logic, leading to 25–40% faster page loads and improved
+                  Lighthouse scores across projects; maintained code.
+                </li>
+                <li>
+                  Used Git and GitHub to manage codebases with 1000+ commits,
+                  implement feature branching, and collaborate effectively in
+                  team environments, reducing merge conflicts by 40%.
+                </li>
+                <strong>Language and Technologies Used:</strong>
+                ReactJS, Redux Toolkit, Axios, JavaScript, HTML, CSS, Bootstrap.
+              </ul>
+              <ul></ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:hemantsonar1609@gmail.com">Click to Mail</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p>
+            <a href="https://www.linkedin.com/in/hemant-s-64693734a/"
+              >Click to Connect</a
+            >
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <hr />
+      <p>
+        Copyright &#169; <span id="date"></span> Hemant Sonar. All Rights
+        Reserved.
+      </p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
