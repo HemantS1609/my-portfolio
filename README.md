@@ -27,14 +27,5 @@ Sections
 - Projects: A detailed view of the projects I’ve developed or contributed to, including key features and technologies used.
 
 How to View
-You can view my portfolio live at [Hemant Sonar's Portfolio](https://hemants1609.github.io/my-portfolio/), or clone the project locally by following the steps below:
+You can view my portfolio live at [Hemant Sonar's Portfolio](https://hemants1609.github.io/my-portfolio/)
 
-#Clone Repository
-
-```
-git clone https://github.com/hemants1609/portfolio
-cd portfolio
-```
-
-#Run Locally
-To view the portfolio locally, open `index.html` in your browser.
